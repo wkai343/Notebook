@@ -2,14 +2,18 @@
 
 参考：<https://github.com/espressif/vscode-esp-idf-extension/blob/master/README_CN.md>
 
-## 创建配置文件
+## 创建配置文件（可选）
+
+左下角设置选择配置文件，新建。目的是隔离插件。
 
 ![](./profile.png)
 
+以后如果想使用ESP-IDF，可以在左下角选择idf的配置文件。
+
 ## 安装插件
 
-- esp-idf
-- clangd
+- esp-idf 核心插件
+- clangd 语言服务器
 
 ![](./extension.png)
 
@@ -25,9 +29,9 @@
 ![](./project.png)
 ![](./template.png)
 
-点击创建，右下角会弹出打开项目的弹窗，点击打开项目
+点击创建，右下角会弹出打开项目的弹窗，点击打开项目。
 
-## 修改 clangd 设置（只有 xtensa 架构的需要这样修改，未来 esp-idf 插件可能会完善）
+## 在 .vscode/settings.json 中修改 clangd 参数（只有 xtensa 架构的需要这样修改，未来 esp-idf 插件可能会完善）
 
 将光标处修改为目标芯片的型号，以 esp32s3 为例
 
@@ -36,7 +40,7 @@
 - 修改后：
     ![](./clangd1.png)
 
-> 目的是保持与 ${workspaceFolder}/build/compile_commands.json 中的编译器一致，该文件在 cmake 配置完成（再次选择目标芯片或构建项目）后产生
+> 目的是保持与 ${workspaceFolder}/build/compile_commands.json 中的编译器一致，compile_commands.json文件在 cmake 配置完成（再次选择目标芯片或构建项目）后产生
 
 ## 通过 Menuconfig 配置 CPU 主频和 Flash 大小（可选）
 
@@ -45,7 +49,7 @@
 - Flash 大小：
     ![](./flash.png)
 
-点击 `Save` 保存
+点击 `Save` 保存。
 
 ## 编写代码、编译、烧录、监视和调试
 
