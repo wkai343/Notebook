@@ -14,6 +14,10 @@
 
 ![](./externc.png)
 
+将CMakeLists.txt中的 main.c 修改为 main.cpp
+
+![](./cmake.png)
+
 ## 使用 C++ 的 [`<print>`](https://zh.cppreference.com/w/cpp/header/print.html)
 
 ![](./print.png)
