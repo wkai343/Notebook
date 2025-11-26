@@ -42,15 +42,6 @@
 
 > 目的是保持与 ${workspaceFolder}/build/compile_commands.json 中的编译器一致，compile_commands.json文件在 cmake 配置完成（再次选择目标芯片或构建项目）后产生
 
-## 通过 Menuconfig 配置 CPU 主频和 Flash 大小（可选）
-
-- CPU 主频：
-    ![](./cpu.png)
-- Flash 大小：
-    ![](./flash.png)
-
-点击 `Save` 保存。
-
 ## 编写代码、编译、烧录、监视和调试
 
 - 编写代码，clangd 正常工作：
