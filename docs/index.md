@@ -11,8 +11,8 @@ hero:
     alt: VitePress
   actions:
     - theme: brand
-      text: 安装esp-idf
-      link: /esp-idf/install
+      text: esp-idf
+      link: /esp-idf/
     - theme: brand
       text: 开源仓库推荐
       link: /repo
