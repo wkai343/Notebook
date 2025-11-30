@@ -13,6 +13,12 @@ hero:
     - theme: brand
       text: 安装esp-idf
       link: /esp-idf/install
+    - theme: brand
+      text: 开源仓库推荐
+      link: /repo
+    - theme: brand
+      text: 文档资料推荐
+      link: /docs
   #   - theme: alt
   #     text: API Examples
   #     link: /api-examples

@@ -18,8 +18,10 @@ export default defineConfig({
           items: [
             { text: '安装ESP-IDF', link: '/esp-idf/install' },
             { text: '在VS Code中安装开发环境', link: '/esp-idf/vscode' },
+            { text: 'Menuconfig', link: '/esp-idf/menuconfig' },
             { text: '使用C++开发', link: '/esp-idf/cpp' },
-            { text: 'Menuconfig', link: '/todo' },
+            { text: '添加组件', link: '/esp-idf/components' },
+            { text: 'LCD', link: '/esp-idf/lcd' },
           ]
         }
       ],

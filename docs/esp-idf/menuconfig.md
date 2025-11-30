@@ -1,9 +1,13 @@
+# Menuconfig
 
-## 通过 Menuconfig 配置 CPU 主频和 Flash 大小（可选）
+## SPI Flash 和片外 SPI RAM 配置
 
-- CPU 主频：
-    ![](./cpu.png)
-- Flash 大小：
-    ![](./flash.png)
+<https://docs.espressif.com/projects/esp-idf/zh_CN/latest/esp32s3/api-guides/flash_psram_config.html>
 
-点击 `Save` 保存。
+<https://docs.espressif.com/projects/esp-idf/zh_CN/latest/esp32s3/api-guides/external-ram.html>
+
+模组可以查阅[数据手册](https://documentation.espressif.com/zh/home)设置合适的参数
+
+## CPU 主频
+
+![](./cpu.png)
