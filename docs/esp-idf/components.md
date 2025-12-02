@@ -19,7 +19,7 @@ ctrl+shift+p
 
 ![](./local_component.png)
 
-> 不可以放在 main/managed_components 中，因为可能会被 clean
+> 不可以放在 managed_components 中，因为可能会被 clean
 
 ## 从 Git 仓库定义依赖关系
 

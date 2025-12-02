@@ -22,6 +22,7 @@ export default defineConfig({
             { text: '使用C++开发', link: '/esp-idf/cpp' },
             { text: '添加组件', link: '/esp-idf/components' },
             { text: 'LCD', link: '/esp-idf/lcd' },
+            { text: '疑难', link: '/esp-idf/troubleshooting' },
           ]
         }
       ],
